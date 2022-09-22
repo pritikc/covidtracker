@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+  background: url('https://images.pexels.com/photos/1119793/pexels-photo-1119793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center fixed ;
+  
+  background-size: cover; 
+  
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(216, 16, 16);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8PX;
+  }
+  h1{
+    margin-top: 40px;
+    text-align: center;
+    /* font-size: xxx-large; */
+  }
+  h2{
+    margin: 2px 0 10px;
+    text-align: center;
+    font-size: xxx-large;
+  }
+.flex-container{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap:10px 10px;
+}
+.flex-item{
+    background: #714DE6; 
+    /* rgb(39, 13, 124) */
+  padding: 5px;
+  width: 430px;
+  height: 250px;
+  margin-top: 10px;
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: all .2s ease-in-out; 
+}
+.flex-item:hover{
+    transform: scale(1.1);
+    /* background-image: linear-gradient(
+        to right,
+        #54b3d6,
+        #54b3d6 100%,
+        #000 50%
+      ); */
+      background-image: linear-gradient(
+        to right,
+       #5d3cc7,
+        #5233b5 100%,
+        #000 50%
+      );
+}
+.card_name{
+    padding-top: 30px;
+}
+.card_name span{
+    font-size: xx-large;
+}
+
+.card_total{
+    padding:30px 0;
+    font-size: 3.5em;
+    line-height: 55px;
+    /* background-color: #edde9c; */
+    color: #5c3ec0;
+    text-shadow:
+      0 1px 0px #5132b8,
+      1px 0 0px #5d3cc7,
+      1px 2px 1px #8a67ff,
+      2px 1px 1px #8a67ff,
+      2px 3px 2px #5d3cc7,
+      3px 2px 2px #8a67ff,
+      3px 4px 2px #5d3cc7,
+      4px 3px 3px #8a67ff,
+      4px 5px 3px #5d3cc7,
+      5px 4px 2px #8a67ff,
+      5px 6px 2px #5d3cc7,
+      6px 5px 2px #8a67ff,
+      6px 7px 1px #5d3cc7,
+      7px 6px 1px #8a67ff,
+      7px 8px 0px #5d3cc7,
+      8px 7px 0px #8a67ff;
+}
