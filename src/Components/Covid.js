@@ -24,11 +24,11 @@ function Covid() {
 
   return (
     <>
-    <section>
+    <section className="main ">
     <h1><span className="dot"></span>Live</h1>
-    <h2>COVID-19 Tracker</h2>
+    <h2 className="heading ">COVID-19 Tracker</h2>
 
-    <ul className="flex-container">
+    <ul className="flex-container ">
         <li className="flex-item"> 
             <div className="card_main">
                 <div className="card_inner">

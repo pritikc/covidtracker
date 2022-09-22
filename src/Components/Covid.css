@@ -10,6 +10,8 @@ body{
   background-size: cover; 
   
 }
+
+
 .dot {
     height: 15px;
     width: 15px;
@@ -17,11 +19,15 @@ body{
     border-radius: 50%;
     display: inline-block;
     margin-right: 8PX;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
   }
   h1{
     margin-top: 40px;
     text-align: center;
     /* font-size: xxx-large; */
+  }
+  .heading{
+    text-shadow: 1px 1px 2px rgb(171, 152, 200);
   }
   h2{
     margin: 2px 0 10px;
@@ -52,8 +58,9 @@ body{
   font-weight: bold;
   font-size: 1em;
   text-align: center;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  box-shadow: 0 3px 10px rgba(13, 13, 13, 0.3);
   transition: all .2s ease-in-out; 
+  border-radius: 10px;
 }
 .flex-item:hover{
     transform: scale(1.1);
@@ -100,4 +107,10 @@ body{
       7px 6px 1px #8a67ff,
       7px 8px 0px #5d3cc7,
       8px 7px 0px #8a67ff;
+}
+
+
+.card_total:hover{
+  
+  color: #6348ba;
 }
